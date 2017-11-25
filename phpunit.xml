@@ -1,0 +1,10 @@
+<phpunit
+        colors="true"
+        stopOnError="true"
+        bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="Money">
+            <file>src/Test/MoneyTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>
